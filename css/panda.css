@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width: 800 px;
+  height: 600px;
+}
+
+#panda {
+  margin: 0 auto;
+}
+
+#head {
+  width: 550px;
+  height: 450px;
+  border-radius: 64%;
+  border: 12px solid black;
+  position: relative;
+  z-index: 98;
+  background-color: white;
+}
+
+#leftEye {
+  width: 160px;
+  height: 130px;
+  background: black;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  border-radius: 50%;
+  transform: rotate(-55deg);
+  z-index: 99;
+}
+
+#leftEye > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 64%;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  z-index: 100;
+  background-color: white;
+}
+
+#rightEye {
+  width: 160px;
+  height: 130px;
+  background: black;
+  position: absolute;
+  top: 150px;
+  left: 325px;
+  border-radius: 50%;
+  transform: rotate(55deg);
+  z-index: 99;
+}
+
+#rightEye > div {
+  width: 40px;
+  height: 40px;
+  border-radius: 64%;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  z-index: 200;
+  background-color: white;
+}
+
+#leftEar {
+  width: 160px;
+  height: 130px;
+  position: absolute;
+  background: black;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  top: 40px;
+  left: 10px;
+  z-index: -99;
+}
+
+#rightEar {
+  width: 160px;
+  height: 130px;
+  background: black;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  border-radius: 50%;
+  transform: rotate(-50deg);
+  z-index: 97;
+}
+
+#nose {
+  width: 60px;
+  height: 40px;
+  background: black;
+  border-radius: 64%;
+  position: absolute;
+  top: 260px;
+  left: 260px;
+  z-index: 100;
+}
+
+#leftMouth {
+  width: 80px;
+  height: 140px;
+  border: solid black 12px;
+  border-color: transparent transparent black transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 217px;
+  z-index: 101;
+  transform: rotate(5deg);
+}
+
+#leftMouth > div {
+  height: 12px;
+  width: 12px;
+  background: black;
+  border-radius: 64%;
+  position: absolute;
+  top: 125px;
+  left: 7px;
+  z-index: 200;
+}
+
+#rightMouth {
+  width: 80px;
+  height: 140px;
+  border: solid black 12px;
+  border-color: transparent transparent black transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 253px;
+  z-index: 101;
+  transform: rotate(-5deg);
+}
+
+#rightMouth > div {
+  height: 12px;
+  width: 12px;
+  background: black;
+  border-radius: 64%;
+  position: absolute;
+  top: 125px;
+  left: 61px;
+  z-index: 200;
+}
